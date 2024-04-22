@@ -36,10 +36,11 @@ body {
 }
 
 .logo {
-    color: #00ff0dfa;
-}
-.logo span {
-    color: #ffff;
+    background: -webkit-linear-gradient(left, #41e002 0%, #fff 100%);
+    background: linear-gradient(to right, #41e002 0%, #fff 100%);
+
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 nav ul {
@@ -298,3 +299,44 @@ main {
 }
 
 /* Main Content */
+
+/* Testimonials */
+
+.testimonials {
+    display: flex;
+    padding: 4rem 1rem;
+    justify-content: space-evenly;
+}
+
+.testimonial {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-basis: 30%;
+    text-align: center;
+    box-shadow: 0 0 15px #afafaf;
+    padding: 1rem;
+    border-radius: 1rem;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.testimonial:hover {
+    transform: translateY(-5px);
+}
+
+.testimonial p {
+    margin: 5px 0;
+}
+
+.testimonial p:first-child{
+    font-weight: bold;
+    font-size: 5rem;
+    color: #0084ff;
+    margin-top: 3rem;
+    line-height: 2rem;
+    
+}
+
+/* Testimonials */

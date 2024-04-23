@@ -301,7 +301,6 @@ main {
 /* Main Content */
 
 /* Testimonials */
-
 .testimonials {
     display: flex;
     padding: 4rem 1rem;
@@ -330,13 +329,12 @@ main {
     margin: 5px 0;
 }
 
-.testimonial p:first-child{
+.testimonial p:first-child {
     font-weight: bold;
     font-size: 5rem;
     color: #0084ff;
     margin-top: 3rem;
     line-height: 2rem;
-    
 }
 
 /* Testimonials */

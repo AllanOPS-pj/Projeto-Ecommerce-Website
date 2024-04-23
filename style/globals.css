@@ -331,7 +331,7 @@ main {
 }
 
 .testimonial:hover {
-    transform: translateY(-5px);
+    transform: translateY(-5px);        
 }
 
 .testimonial p {
